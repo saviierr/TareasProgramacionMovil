@@ -9,32 +9,22 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-  # Iconos de iOS
   cupertino_icons: ^1.0.8
 
-  # RA - ESTA ES LA QUE VAS A USAR (la más estable y recomendada para la práctica)
   ar_flutter_plugin: ^0.7.3
 
-  # Matemáticas vectoriales (necesario para posición, escala y rotación)
   vector_math: ^2.1.4
 
-  # Navegación
   go_router: ^17.0.0
 
-  # State management
   provider: ^6.1.5
 
   # Persistencia simple
   shared_preferences: ^2.5.3
 
-  # Opcionales para otras funcionalidades que ya tenías
   image_picker: ^1.1.2
   google_mlkit_text_recognition: ^0.15.0
-  model_viewer_plus: ^1.7.0   # útil si quieres vista previa 3D normal (no AR)
-
-  # ELIMINADAS O COMENTADAS (causan conflicto o no sirven para esta práctica)
-  # ar_flutter_plugin_2: ^0.0.3   ← paquete muerto y conflictivo, lo borras
+  model_viewer_plus: ^1.7.0 
 
 dev_dependencies:
   flutter_test:
@@ -47,7 +37,3 @@ dependency_overrides:
 
 flutter:
   uses-material-design: true
-
-  # Carpeta donde pondrás la textura del plano (triángulo)
-  # assets:
-  #   - assets/images/triangle.png
